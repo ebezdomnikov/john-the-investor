@@ -1,0 +1,181 @@
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+h1 {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+h3 {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+}
+p {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+blockquote {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+pre {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.pagination {
+    margin-bottom: 30px;
+}
+
+.overview-item .overview-item-header {
+    padding: 5%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+
+}
+
+.stock-type-common {
+    background-color: #ff851b;
+    color: white;
+}
+
+.stock-type-preferred {
+    background-color: #0073b7;
+    color: white;
+}
+
+.market-price-badge {
+    font-size: 65%;
+    border-radius: 1.0rem;
+    padding: 4px;
+}
+
+.dashboard-switch-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard-switch-container .nav-pills>li>a {
+    border-radius: 26px;
+}
+
+.dashboard-switch-container .nav>li>a {
+    padding: 3px 15px;
+}
+
+.overview-item .markets-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.overview-item .markets-container .market-item {
+    display: flex;
+    padding: 5px;
+    border-right: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+    align-items: center;
+}
+
+.overview-item {
+    padding-bottom: 20px;
+}
+
+.overview-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.market-title {
+    font-size: 75%;
+}
+
+.overview-item .market-item .market-title {
+    flex: 1 1;
+}
+
+.market-table {
+    font-size: 80%;
+}
+
+.market-header {
+    padding: 11px;
+    font-size: 121%;
+}
+
+.market-table .market-price-badge {
+    font-size: 80%;
+    border-radius: 5px;
+}
+
+.hightrade-item {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+.hightrade-container {
+    padding: 3%;
+}
+
+.hightrade-company-name {
+    text-transform: uppercase;
+}
+
+.hightrade-price {
+    font-weight: 800;
+    padding: 1px;
+}
+
+.hightrade-market-title {
+    padding: 7px;
+    font-size: 90%;
+}
+
+.hightrade-market-title-stock-common {
+    border-top: 2px solid #d76510;
+}
+
+.hightrade-market-title-stock-preferred {
+    border-top: 2px solid #075875;
+}
+
+.container-header {
+    display: flex;
+}
+
+.container-control {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
